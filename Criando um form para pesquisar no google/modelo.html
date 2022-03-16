@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body{
+            text-align: center;
+            padding: 15px;
+        }
+
+        input{
+            border-radius: 5px;
+        }
+
+        #q{
+            width: 260px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google</h1>
+    <form action="https://www.google.com/search" target="_blank">
+        <input type="search" name="q" id="q" list="l1" placeholder="Pesquise no Google ou escreva um URL" required autocomplete="off">
+        <datalist id="l1">
+            <option>Google</option>
+            <option>Mozzila</option>
+            <option>Edge</option>
+            <option>Opera</option>
+            <option>Brave</option>
+        </datalist>
+        <br><br>
+        <input type="submit" value="Pesquisar">
+    </form>
+</body>
+</html>
