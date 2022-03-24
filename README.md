@@ -1,2 +1,2 @@
-# Curso_HTML
+# OneBitCode-CursoHTML
  Primeiro repositório do curso de HTML - Onebitcode
