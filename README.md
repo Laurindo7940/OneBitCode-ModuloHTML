@@ -1,2 +1,5 @@
 # OneBitCode-CursoHTML
- Primeiro repositório do curso de HTML - Onebitcode
+
+ Alguns projetos feito no curso fullstack javascript no curso da onebitcode
+
+
